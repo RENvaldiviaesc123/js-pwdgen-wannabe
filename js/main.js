@@ -21,4 +21,8 @@ let number21 = 21;
 let passwordUtente = nameUser + surnameUser + colorUser + number21
  //console.log passwordUtente
  console.log(passwordUtente);
- 
+
+ //PARTE BONUS
+let numerXx = prompt("Inserisci due numeri");
+let newPassword= nameUser + surnameUser + colorUser + numerXx
+console.log(newPassword);
