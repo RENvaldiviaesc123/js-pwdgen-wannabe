@@ -26,3 +26,11 @@ let passwordUtente = nameUser + surnameUser + colorUser + number21
 let numerXx = prompt("Inserisci due numeri");
 let newPassword= nameUser + surnameUser + colorUser + numerXx
 console.log(newPassword);
+
+
+//Stampo le informazioni sull'html
+document.getElementById ("username").innerHTML=nameUser;
+document.getElementById ("usersurname").innerHTML=surnameUser;
+document.getElementById ("userfavcolor").innerHTML=colorUser;
+document.getElementById ("yourpass").innerHTML=newPassword;
+//FINE
